@@ -11,6 +11,8 @@
 		5ABECBF5296D57B7005EDAF5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ABECBF4296D57B7005EDAF5 /* ContentView.swift */; };
 		5ABECBF7296D57B8005EDAF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5ABECBF6296D57B8005EDAF5 /* Assets.xcassets */; };
 		5ABECBFA296D57B8005EDAF5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5ABECBF9296D57B8005EDAF5 /* Preview Assets.xcassets */; };
+		5ABECC01296D598C005EDAF5 /* CaseStudyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ABECC00296D598C005EDAF5 /* CaseStudyView.swift */; };
+		5ABECC04296D6771005EDAF5 /* BasicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ABECC03296D6771005EDAF5 /* BasicView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		5ABECBF4296D57B7005EDAF5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5ABECBF6296D57B8005EDAF5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5ABECBF9296D57B8005EDAF5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5ABECC00296D598C005EDAF5 /* CaseStudyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaseStudyView.swift; sourceTree = "<group>"; };
+		5ABECC03296D6771005EDAF5 /* BasicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +55,7 @@
 		5ABECBF1296D57B7005EDAF5 /* TCA_Example */ = {
 			isa = PBXGroup;
 			children = (
+				5ABECC02296D675D005EDAF5 /* Case Study */,
 				5ABECBF2296D57B7005EDAF5 /* TCA_ExampleApp.swift */,
 				5ABECBF4296D57B7005EDAF5 /* ContentView.swift */,
 				5ABECBF6296D57B8005EDAF5 /* Assets.xcassets */,
@@ -65,6 +70,15 @@
 				5ABECBF9296D57B8005EDAF5 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5ABECC02296D675D005EDAF5 /* Case Study */ = {
+			isa = PBXGroup;
+			children = (
+				5ABECC00296D598C005EDAF5 /* CaseStudyView.swift */,
+				5ABECC03296D6771005EDAF5 /* BasicView.swift */,
+			);
+			path = "Case Study";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +153,8 @@
 			files = (
 				5ABECBF5296D57B7005EDAF5 /* ContentView.swift in Sources */,
 				5ABECBF3296D57B7005EDAF5 /* TCA_ExampleApp.swift in Sources */,
+				5ABECC01296D598C005EDAF5 /* CaseStudyView.swift in Sources */,
+				5ABECC04296D6771005EDAF5 /* BasicView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
