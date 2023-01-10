@@ -7,12 +7,17 @@
 
 import SwiftUI
 
+import ComposableArchitecture
+
 struct CaseStudyView: View {
     var body: some View {
         Form {
             Section("GETTING STARTED") {
                 NavigationLink("Basic") {
-                    BasicView()
+                    BasicView(store: Store(
+                        initialState: CounterReducer.State(),
+                        reducer: CounterReducer()
+                    ))
                 }
             }
         }
