@@ -12,8 +12,10 @@
 		5ABECBF7296D57B8005EDAF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5ABECBF6296D57B8005EDAF5 /* Assets.xcassets */; };
 		5ABECBFA296D57B8005EDAF5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5ABECBF9296D57B8005EDAF5 /* Preview Assets.xcassets */; };
 		5ABECC01296D598C005EDAF5 /* CaseStudyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ABECC00296D598C005EDAF5 /* CaseStudyView.swift */; };
-		5ABECC04296D6771005EDAF5 /* BasicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ABECC03296D6771005EDAF5 /* BasicView.swift */; };
+		5ABECC04296D6771005EDAF5 /* CounterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ABECC03296D6771005EDAF5 /* CounterView.swift */; };
 		5ABECC0A296DAA7A005EDAF5 /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = 5ABECC09296DAA7A005EDAF5 /* ComposableArchitecture */; };
+		5ABECC0C296DB725005EDAF5 /* TwoCountersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ABECC0B296DB725005EDAF5 /* TwoCountersView.swift */; };
+		5ABECC0E296E41F1005EDAF5 /* BindingsBasicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ABECC0D296E41F1005EDAF5 /* BindingsBasicView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,7 +25,9 @@
 		5ABECBF6296D57B8005EDAF5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5ABECBF9296D57B8005EDAF5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5ABECC00296D598C005EDAF5 /* CaseStudyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaseStudyView.swift; sourceTree = "<group>"; };
-		5ABECC03296D6771005EDAF5 /* BasicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicView.swift; sourceTree = "<group>"; };
+		5ABECC03296D6771005EDAF5 /* CounterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterView.swift; sourceTree = "<group>"; };
+		5ABECC0B296DB725005EDAF5 /* TwoCountersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoCountersView.swift; sourceTree = "<group>"; };
+		5ABECC0D296E41F1005EDAF5 /* BindingsBasicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingsBasicView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,7 +82,9 @@
 			isa = PBXGroup;
 			children = (
 				5ABECC00296D598C005EDAF5 /* CaseStudyView.swift */,
-				5ABECC03296D6771005EDAF5 /* BasicView.swift */,
+				5ABECC03296D6771005EDAF5 /* CounterView.swift */,
+				5ABECC0B296DB725005EDAF5 /* TwoCountersView.swift */,
+				5ABECC0D296E41F1005EDAF5 /* BindingsBasicView.swift */,
 			);
 			path = "Case Study";
 			sourceTree = "<group>";
@@ -160,9 +166,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				5ABECBF5296D57B7005EDAF5 /* ContentView.swift in Sources */,
+				5ABECC0C296DB725005EDAF5 /* TwoCountersView.swift in Sources */,
 				5ABECBF3296D57B7005EDAF5 /* TCA_ExampleApp.swift in Sources */,
 				5ABECC01296D598C005EDAF5 /* CaseStudyView.swift in Sources */,
-				5ABECC04296D6771005EDAF5 /* BasicView.swift in Sources */,
+				5ABECC04296D6771005EDAF5 /* CounterView.swift in Sources */,
+				5ABECC0E296E41F1005EDAF5 /* BindingsBasicView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

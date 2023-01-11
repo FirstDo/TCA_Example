@@ -13,10 +13,24 @@ struct CaseStudyView: View {
     var body: some View {
         Form {
             Section("GETTING STARTED") {
-                NavigationLink("Basic") {
-                    BasicView(store: Store(
-                        initialState: CounterReducer.State(),
-                        reducer: CounterReducer()
+                NavigationLink("Counter") {
+                    CounterView(store: Store(
+                        initialState: Counter.State(),
+                        reducer: Counter()
+                    ))
+                }
+                
+                NavigationLink("Two Counters") {
+                    TwoCountersView(store: Store(
+                        initialState: TwoCounters.State(),
+                        reducer: TwoCounters()
+                    ))
+                }
+                
+                NavigationLink("BindingsBasic") {
+                    BindingsBasicView(store: Store(
+                        initialState: BindingsBasic.State(),
+                        reducer: BindingsBasic()
                     ))
                 }
             }

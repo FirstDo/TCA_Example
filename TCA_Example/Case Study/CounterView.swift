@@ -1,5 +1,5 @@
 //
-//  BasicView.swift
+//  CounterView.swift
 //  TCA_Example
 //
 //  Created by dudu on 2023/01/10.
@@ -9,7 +9,7 @@ import SwiftUI
 
 import ComposableArchitecture
 
-struct CounterReducer: ReducerProtocol {
+struct Counter: ReducerProtocol {
     struct State: Equatable {
         var count = 0
     }
@@ -24,17 +24,17 @@ struct CounterReducer: ReducerProtocol {
     func reduce(into state: inout State, action: Action) -> EffectTask<Action> {
         switch action {
         case .decrementButtonTapped:
-            state.count += 1
+            state.count -= 1
             return .none
         case .incrementButtonTapped:
-            state.count -= 1
+            state.count += 1
             return .none
         }
     }
 }
 
-struct BasicView: View {
-    let store: StoreOf<CounterReducer>
+struct CounterView: View {
+    let store: StoreOf<Counter>
     
     var body: some View {
         WithViewStore(self.store) { viewStore in
