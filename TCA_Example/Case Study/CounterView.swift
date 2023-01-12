@@ -38,27 +38,20 @@ struct CounterView: View {
     
     var body: some View {
         WithViewStore(self.store) { viewStore in
-            HStack(spacing: 20) {
+            HStack {
                 Button {
                     viewStore.send(.decrementButtonTapped)
                 } label: {
                     Image(systemName: "minus")
-                        .resizable()
-                        .scaledToFit()
-                        .frame(width: 64, height: 64)
-                        
                 }
                 
                 Text("\(viewStore.count)")
-                    .font(.largeTitle)
+                    .monospacedDigit()
                 
                 Button {
                     viewStore.send(.incrementButtonTapped)
                 } label: {
                     Image(systemName: "plus")
-                        .resizable()
-                        .scaledToFit()
-                        .frame(width: 64, height: 64)
                 }
             }
         }

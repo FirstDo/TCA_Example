@@ -33,6 +33,13 @@ struct CaseStudyView: View {
                         reducer: BindingsBasic()
                     ))
                 }
+                
+                NavigationLink("BindingsForm") {
+                    BindingsFormView(store: Store(
+                        initialState: BindingForm.State(),
+                        reducer: BindingForm()
+                    ))
+                }
             }
         }
         .navigationTitle("Case Studies")
