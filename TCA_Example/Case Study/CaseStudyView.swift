@@ -40,6 +40,13 @@ struct CaseStudyView: View {
                         reducer: BindingForm()
                     ))
                 }
+                
+                NavigationLink("OptionalStateView") {
+                    OptionalStateView(store: Store(
+                        initialState: OptionalBasics.State(),
+                        reducer: OptionalBasics())
+                    )
+                }
             }
         }
         .navigationTitle("Case Studies")

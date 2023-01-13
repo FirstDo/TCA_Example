@@ -17,6 +17,7 @@
 		5ABECC0C296DB725005EDAF5 /* TwoCountersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ABECC0B296DB725005EDAF5 /* TwoCountersView.swift */; };
 		5ABECC0E296E41F1005EDAF5 /* BindingsBasicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ABECC0D296E41F1005EDAF5 /* BindingsBasicView.swift */; };
 		5ABECC10296E82B1005EDAF5 /* BindingsFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ABECC0F296E82B1005EDAF5 /* BindingsFormView.swift */; };
+		5ABECC12296F9569005EDAF5 /* OptionalStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ABECC11296F9569005EDAF5 /* OptionalStateView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		5ABECC0B296DB725005EDAF5 /* TwoCountersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoCountersView.swift; sourceTree = "<group>"; };
 		5ABECC0D296E41F1005EDAF5 /* BindingsBasicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingsBasicView.swift; sourceTree = "<group>"; };
 		5ABECC0F296E82B1005EDAF5 /* BindingsFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingsFormView.swift; sourceTree = "<group>"; };
+		5ABECC11296F9569005EDAF5 /* OptionalStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionalStateView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 				5ABECC0B296DB725005EDAF5 /* TwoCountersView.swift */,
 				5ABECC0D296E41F1005EDAF5 /* BindingsBasicView.swift */,
 				5ABECC0F296E82B1005EDAF5 /* BindingsFormView.swift */,
+				5ABECC11296F9569005EDAF5 /* OptionalStateView.swift */,
 			);
 			path = "Case Study";
 			sourceTree = "<group>";
@@ -172,6 +175,7 @@
 				5ABECC10296E82B1005EDAF5 /* BindingsFormView.swift in Sources */,
 				5ABECC0C296DB725005EDAF5 /* TwoCountersView.swift in Sources */,
 				5ABECBF3296D57B7005EDAF5 /* TCA_ExampleApp.swift in Sources */,
+				5ABECC12296F9569005EDAF5 /* OptionalStateView.swift in Sources */,
 				5ABECC01296D598C005EDAF5 /* CaseStudyView.swift in Sources */,
 				5ABECC04296D6771005EDAF5 /* CounterView.swift in Sources */,
 				5ABECC0E296E41F1005EDAF5 /* BindingsBasicView.swift in Sources */,
