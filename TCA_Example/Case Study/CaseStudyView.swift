@@ -54,6 +54,13 @@ struct CaseStudyView: View {
                         reducer: SharedState())
                     )
                 }
+                
+                NavigationLink("AlertConfirmationDialog") {
+                    Alert_ConfirmationDialog(store: Store(
+                        initialState: AlertAndConfirmationDialog.State(),
+                        reducer: AlertAndConfirmationDialog()
+                    ))
+                }
             }
         }
         .navigationTitle("Case Studies")
