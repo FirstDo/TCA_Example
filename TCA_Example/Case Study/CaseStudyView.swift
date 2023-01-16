@@ -41,10 +41,17 @@ struct CaseStudyView: View {
                     ))
                 }
                 
-                NavigationLink("OptionalStateView") {
+                NavigationLink("OptionalState") {
                     OptionalStateView(store: Store(
                         initialState: OptionalBasics.State(),
                         reducer: OptionalBasics())
+                    )
+                }
+                
+                NavigationLink("SharedState") {
+                    SharedStateView(store: Store(
+                        initialState: SharedState.State(),
+                        reducer: SharedState())
                     )
                 }
             }
