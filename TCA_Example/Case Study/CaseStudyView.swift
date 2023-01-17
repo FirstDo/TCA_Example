@@ -61,6 +61,25 @@ struct CaseStudyView: View {
                         reducer: AlertAndConfirmationDialog()
                     ))
                 }
+                
+                NavigationLink("FocusDemo") {
+                    FocusDemoView(store: Store(
+                        initialState: FocusDemo.State(),
+                        reducer: FocusDemo()
+                    ))
+                }
+            }
+            
+            Section("EFFECTS") {
+                
+            }
+            
+            Section("NAVIGATION") {
+                
+            }
+            
+            Section("HIGHER-ORDER- REDUCERS") {
+                
             }
         }
         .navigationTitle("Case Studies")

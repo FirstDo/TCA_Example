@@ -20,6 +20,7 @@
 		5ABECC12296F9569005EDAF5 /* OptionalStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ABECC11296F9569005EDAF5 /* OptionalStateView.swift */; };
 		5AE6635629753BCF00B62DBA /* SharedStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE6635529753BCF00B62DBA /* SharedStateView.swift */; };
 		5AE6635829757DE500B62DBA /* Alert_ConfirmationDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE6635729757DE500B62DBA /* Alert_ConfirmationDialog.swift */; };
+		5AE6635A297615E200B62DBA /* FocusDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE66359297615E200B62DBA /* FocusDemoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		5ABECC11296F9569005EDAF5 /* OptionalStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionalStateView.swift; sourceTree = "<group>"; };
 		5AE6635529753BCF00B62DBA /* SharedStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedStateView.swift; sourceTree = "<group>"; };
 		5AE6635729757DE500B62DBA /* Alert_ConfirmationDialog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert_ConfirmationDialog.swift; sourceTree = "<group>"; };
+		5AE66359297615E200B62DBA /* FocusDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusDemoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 				5ABECC11296F9569005EDAF5 /* OptionalStateView.swift */,
 				5AE6635529753BCF00B62DBA /* SharedStateView.swift */,
 				5AE6635729757DE500B62DBA /* Alert_ConfirmationDialog.swift */,
+				5AE66359297615E200B62DBA /* FocusDemoView.swift */,
 			);
 			path = "Case Study";
 			sourceTree = "<group>";
@@ -183,6 +186,7 @@
 				5AE6635829757DE500B62DBA /* Alert_ConfirmationDialog.swift in Sources */,
 				5ABECC0C296DB725005EDAF5 /* TwoCountersView.swift in Sources */,
 				5ABECBF3296D57B7005EDAF5 /* TCA_ExampleApp.swift in Sources */,
+				5AE6635A297615E200B62DBA /* FocusDemoView.swift in Sources */,
 				5ABECC12296F9569005EDAF5 /* OptionalStateView.swift in Sources */,
 				5ABECC01296D598C005EDAF5 /* CaseStudyView.swift in Sources */,
 				5ABECC04296D6771005EDAF5 /* CounterView.swift in Sources */,
