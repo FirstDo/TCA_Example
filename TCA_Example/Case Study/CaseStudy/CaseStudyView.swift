@@ -84,6 +84,13 @@ struct CaseStudyView: View {
                         reducer: EffectsBasics()
                     ))
                 }
+                
+                NavigationLink("Effects Cancellation") {
+                    EffectsCancellationView(store: Store(
+                        initialState: .init(),
+                        reducer: EffectsCancellation())
+                    )
+                }
             }
             
             Section("NAVIGATION") {
