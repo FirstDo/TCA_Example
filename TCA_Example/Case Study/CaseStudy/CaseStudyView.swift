@@ -78,7 +78,12 @@ struct CaseStudyView: View {
             }
             
             Section("EFFECTS") {
-                
+                NavigationLink("EffectsBasic") {
+                    EffectsBasicsView(store: Store(
+                        initialState: EffectsBasics.State(),
+                        reducer: EffectsBasics()
+                    ))
+                }
             }
             
             Section("NAVIGATION") {

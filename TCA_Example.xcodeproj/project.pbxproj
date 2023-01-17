@@ -22,6 +22,8 @@
 		5AE6635829757DE500B62DBA /* Alert_ConfirmationDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE6635729757DE500B62DBA /* Alert_ConfirmationDialog.swift */; };
 		5AE6635A297615E200B62DBA /* FocusDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE66359297615E200B62DBA /* FocusDemoView.swift */; };
 		5AE6635C29762B0E00B62DBA /* AnimationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE6635B29762B0E00B62DBA /* AnimationsView.swift */; };
+		5AE6636129763B5E00B62DBA /* EffectsBasicsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE6636029763B5E00B62DBA /* EffectsBasicsView.swift */; };
+		5AE6636429763E9700B62DBA /* FatClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE6636329763E9700B62DBA /* FatClient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +42,9 @@
 		5AE6635729757DE500B62DBA /* Alert_ConfirmationDialog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert_ConfirmationDialog.swift; sourceTree = "<group>"; };
 		5AE66359297615E200B62DBA /* FocusDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusDemoView.swift; sourceTree = "<group>"; };
 		5AE6635B29762B0E00B62DBA /* AnimationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationsView.swift; sourceTree = "<group>"; };
+		5AE6636029763B5E00B62DBA /* EffectsBasicsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EffectsBasicsView.swift; sourceTree = "<group>"; };
+		5AE6636329763E9700B62DBA /* FatClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FatClient.swift; sourceTree = "<group>"; };
+		5AE663662976475C00B62DBA /* TCA-Example-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "TCA-Example-Info.plist"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +78,8 @@
 		5ABECBF1296D57B7005EDAF5 /* TCA_Example */ = {
 			isa = PBXGroup;
 			children = (
+				5AE663662976475C00B62DBA /* TCA-Example-Info.plist */,
+				5AE663652976442100B62DBA /* Dependency */,
 				5ABECC02296D675D005EDAF5 /* Case Study */,
 				5ABECBF2296D57B7005EDAF5 /* TCA_ExampleApp.swift */,
 				5ABECBF4296D57B7005EDAF5 /* ContentView.swift */,
@@ -93,7 +100,24 @@
 		5ABECC02296D675D005EDAF5 /* Case Study */ = {
 			isa = PBXGroup;
 			children = (
+				5AE6635D29763B2A00B62DBA /* CaseStudy */,
+			);
+			path = "Case Study";
+			sourceTree = "<group>";
+		};
+		5AE6635D29763B2A00B62DBA /* CaseStudy */ = {
+			isa = PBXGroup;
+			children = (
 				5ABECC00296D598C005EDAF5 /* CaseStudyView.swift */,
+				5AE6635E29763B3400B62DBA /* Getting Started */,
+				5AE6635F29763B4200B62DBA /* Effects */,
+			);
+			path = CaseStudy;
+			sourceTree = "<group>";
+		};
+		5AE6635E29763B3400B62DBA /* Getting Started */ = {
+			isa = PBXGroup;
+			children = (
 				5ABECC03296D6771005EDAF5 /* CounterView.swift */,
 				5ABECC0B296DB725005EDAF5 /* TwoCountersView.swift */,
 				5ABECC0D296E41F1005EDAF5 /* BindingsBasicView.swift */,
@@ -104,7 +128,23 @@
 				5AE66359297615E200B62DBA /* FocusDemoView.swift */,
 				5AE6635B29762B0E00B62DBA /* AnimationsView.swift */,
 			);
-			path = "Case Study";
+			path = "Getting Started";
+			sourceTree = "<group>";
+		};
+		5AE6635F29763B4200B62DBA /* Effects */ = {
+			isa = PBXGroup;
+			children = (
+				5AE6636029763B5E00B62DBA /* EffectsBasicsView.swift */,
+			);
+			path = Effects;
+			sourceTree = "<group>";
+		};
+		5AE663652976442100B62DBA /* Dependency */ = {
+			isa = PBXGroup;
+			children = (
+				5AE6636329763E9700B62DBA /* FatClient.swift */,
+			);
+			path = Dependency;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -189,8 +229,10 @@
 				5ABECC10296E82B1005EDAF5 /* BindingsFormView.swift in Sources */,
 				5AE6635829757DE500B62DBA /* Alert_ConfirmationDialog.swift in Sources */,
 				5ABECC0C296DB725005EDAF5 /* TwoCountersView.swift in Sources */,
+				5AE6636429763E9700B62DBA /* FatClient.swift in Sources */,
 				5ABECBF3296D57B7005EDAF5 /* TCA_ExampleApp.swift in Sources */,
 				5AE6635A297615E200B62DBA /* FocusDemoView.swift in Sources */,
+				5AE6636129763B5E00B62DBA /* EffectsBasicsView.swift in Sources */,
 				5ABECC12296F9569005EDAF5 /* OptionalStateView.swift in Sources */,
 				5ABECC01296D598C005EDAF5 /* CaseStudyView.swift in Sources */,
 				5ABECC04296D6771005EDAF5 /* CounterView.swift in Sources */,
@@ -326,11 +368,12 @@
 				DEVELOPMENT_TEAM = 7HK5FU8AQ6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "TCA-Example-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -339,9 +382,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "dudu.TCA-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -356,11 +402,12 @@
 				DEVELOPMENT_TEAM = 7HK5FU8AQ6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "TCA-Example-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -369,9 +416,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "dudu.TCA-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
