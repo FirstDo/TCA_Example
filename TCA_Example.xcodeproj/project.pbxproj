@@ -21,6 +21,7 @@
 		5AE6635629753BCF00B62DBA /* SharedStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE6635529753BCF00B62DBA /* SharedStateView.swift */; };
 		5AE6635829757DE500B62DBA /* Alert_ConfirmationDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE6635729757DE500B62DBA /* Alert_ConfirmationDialog.swift */; };
 		5AE6635A297615E200B62DBA /* FocusDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE66359297615E200B62DBA /* FocusDemoView.swift */; };
+		5AE6635C29762B0E00B62DBA /* AnimationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE6635B29762B0E00B62DBA /* AnimationsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		5AE6635529753BCF00B62DBA /* SharedStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedStateView.swift; sourceTree = "<group>"; };
 		5AE6635729757DE500B62DBA /* Alert_ConfirmationDialog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert_ConfirmationDialog.swift; sourceTree = "<group>"; };
 		5AE66359297615E200B62DBA /* FocusDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusDemoView.swift; sourceTree = "<group>"; };
+		5AE6635B29762B0E00B62DBA /* AnimationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				5AE6635529753BCF00B62DBA /* SharedStateView.swift */,
 				5AE6635729757DE500B62DBA /* Alert_ConfirmationDialog.swift */,
 				5AE66359297615E200B62DBA /* FocusDemoView.swift */,
+				5AE6635B29762B0E00B62DBA /* AnimationsView.swift */,
 			);
 			path = "Case Study";
 			sourceTree = "<group>";
@@ -181,6 +184,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5ABECBF5296D57B7005EDAF5 /* ContentView.swift in Sources */,
+				5AE6635C29762B0E00B62DBA /* AnimationsView.swift in Sources */,
 				5AE6635629753BCF00B62DBA /* SharedStateView.swift in Sources */,
 				5ABECC10296E82B1005EDAF5 /* BindingsFormView.swift in Sources */,
 				5AE6635829757DE500B62DBA /* Alert_ConfirmationDialog.swift in Sources */,

@@ -68,6 +68,13 @@ struct CaseStudyView: View {
                         reducer: FocusDemo()
                     ))
                 }
+                
+                NavigationLink("Animations") {
+                    AnimationsView(store: Store(
+                        initialState: Animations.State(),
+                        reducer: Animations()
+                    ))
+                }
             }
             
             Section("EFFECTS") {
