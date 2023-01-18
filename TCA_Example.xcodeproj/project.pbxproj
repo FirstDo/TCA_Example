@@ -25,6 +25,8 @@
 		5AE6636129763B5E00B62DBA /* EffectsBasicsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE6636029763B5E00B62DBA /* EffectsBasicsView.swift */; };
 		5AE6636429763E9700B62DBA /* FatClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE6636329763E9700B62DBA /* FatClient.swift */; };
 		5AE6636E2977660400B62DBA /* EffectsCancellationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE6636D2977660400B62DBA /* EffectsCancellationView.swift */; };
+		5AE6637029776D2A00B62DBA /* ScreenShot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE6636F29776D2A00B62DBA /* ScreenShot.swift */; };
+		5AE6637229776E3E00B62DBA /* EffectsLongLivingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE6637129776E3E00B62DBA /* EffectsLongLivingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +49,8 @@
 		5AE6636329763E9700B62DBA /* FatClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FatClient.swift; sourceTree = "<group>"; };
 		5AE663662976475C00B62DBA /* TCA-Example-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "TCA-Example-Info.plist"; sourceTree = SOURCE_ROOT; };
 		5AE6636D2977660400B62DBA /* EffectsCancellationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EffectsCancellationView.swift; sourceTree = "<group>"; };
+		5AE6636F29776D2A00B62DBA /* ScreenShot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenShot.swift; sourceTree = "<group>"; };
+		5AE6637129776E3E00B62DBA /* EffectsLongLivingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EffectsLongLivingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +142,7 @@
 			children = (
 				5AE6636029763B5E00B62DBA /* EffectsBasicsView.swift */,
 				5AE6636D2977660400B62DBA /* EffectsCancellationView.swift */,
+				5AE6637129776E3E00B62DBA /* EffectsLongLivingView.swift */,
 			);
 			path = Effects;
 			sourceTree = "<group>";
@@ -146,6 +151,7 @@
 			isa = PBXGroup;
 			children = (
 				5AE6636329763E9700B62DBA /* FatClient.swift */,
+				5AE6636F29776D2A00B62DBA /* ScreenShot.swift */,
 			);
 			path = Dependency;
 			sourceTree = "<group>";
@@ -228,6 +234,7 @@
 			files = (
 				5ABECBF5296D57B7005EDAF5 /* ContentView.swift in Sources */,
 				5AE6635C29762B0E00B62DBA /* AnimationsView.swift in Sources */,
+				5AE6637229776E3E00B62DBA /* EffectsLongLivingView.swift in Sources */,
 				5AE6635629753BCF00B62DBA /* SharedStateView.swift in Sources */,
 				5ABECC10296E82B1005EDAF5 /* BindingsFormView.swift in Sources */,
 				5AE6635829757DE500B62DBA /* Alert_ConfirmationDialog.swift in Sources */,
@@ -235,6 +242,7 @@
 				5AE6636429763E9700B62DBA /* FatClient.swift in Sources */,
 				5AE6636E2977660400B62DBA /* EffectsCancellationView.swift in Sources */,
 				5ABECBF3296D57B7005EDAF5 /* TCA_ExampleApp.swift in Sources */,
+				5AE6637029776D2A00B62DBA /* ScreenShot.swift in Sources */,
 				5AE6635A297615E200B62DBA /* FocusDemoView.swift in Sources */,
 				5AE6636129763B5E00B62DBA /* EffectsBasicsView.swift in Sources */,
 				5ABECC12296F9569005EDAF5 /* OptionalStateView.swift in Sources */,

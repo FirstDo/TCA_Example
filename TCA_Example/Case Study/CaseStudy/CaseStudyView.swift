@@ -91,6 +91,13 @@ struct CaseStudyView: View {
                         reducer: EffectsCancellation())
                     )
                 }
+                
+                NavigationLink("Effects LongLiving") {
+                    EffectsLongLivingView(store: Store(
+                        initialState: .init(),
+                        reducer: LongLivingEffects())
+                    )
+                }
             }
             
             Section("NAVIGATION") {
