@@ -27,6 +27,7 @@
 		5AE6636E2977660400B62DBA /* EffectsCancellationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE6636D2977660400B62DBA /* EffectsCancellationView.swift */; };
 		5AE6637029776D2A00B62DBA /* ScreenShot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE6636F29776D2A00B62DBA /* ScreenShot.swift */; };
 		5AE6637229776E3E00B62DBA /* EffectsLongLivingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE6637129776E3E00B62DBA /* EffectsLongLivingView.swift */; };
+		5AE663742979116800B62DBA /* EffectsRefreshableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE663732979116800B62DBA /* EffectsRefreshableView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +52,7 @@
 		5AE6636D2977660400B62DBA /* EffectsCancellationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EffectsCancellationView.swift; sourceTree = "<group>"; };
 		5AE6636F29776D2A00B62DBA /* ScreenShot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenShot.swift; sourceTree = "<group>"; };
 		5AE6637129776E3E00B62DBA /* EffectsLongLivingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EffectsLongLivingView.swift; sourceTree = "<group>"; };
+		5AE663732979116800B62DBA /* EffectsRefreshableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EffectsRefreshableView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +145,7 @@
 				5AE6636029763B5E00B62DBA /* EffectsBasicsView.swift */,
 				5AE6636D2977660400B62DBA /* EffectsCancellationView.swift */,
 				5AE6637129776E3E00B62DBA /* EffectsLongLivingView.swift */,
+				5AE663732979116800B62DBA /* EffectsRefreshableView.swift */,
 			);
 			path = Effects;
 			sourceTree = "<group>";
@@ -247,6 +250,7 @@
 				5AE6636129763B5E00B62DBA /* EffectsBasicsView.swift in Sources */,
 				5ABECC12296F9569005EDAF5 /* OptionalStateView.swift in Sources */,
 				5ABECC01296D598C005EDAF5 /* CaseStudyView.swift in Sources */,
+				5AE663742979116800B62DBA /* EffectsRefreshableView.swift in Sources */,
 				5ABECC04296D6771005EDAF5 /* CounterView.swift in Sources */,
 				5ABECC0E296E41F1005EDAF5 /* BindingsBasicView.swift in Sources */,
 			);
@@ -377,7 +381,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"TCA_Example/Preview Content\"";
-				DEVELOPMENT_TEAM = 7HK5FU8AQ6;
+				DEVELOPMENT_TEAM = 56M5N9M2PX;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "TCA-Example-Info.plist";
@@ -411,7 +415,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"TCA_Example/Preview Content\"";
-				DEVELOPMENT_TEAM = 7HK5FU8AQ6;
+				DEVELOPMENT_TEAM = 56M5N9M2PX;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "TCA-Example-Info.plist";

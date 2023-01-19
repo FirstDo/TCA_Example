@@ -98,6 +98,13 @@ struct CaseStudyView: View {
                         reducer: LongLivingEffects())
                     )
                 }
+                
+                NavigationLink("Effects Refreshable") {
+                    EffectsRefreshableView(store: Store(
+                        initialState: .init(),
+                        reducer: Refreshable())
+                    )
+                }
             }
             
             Section("NAVIGATION") {
