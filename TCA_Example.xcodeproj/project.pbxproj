@@ -28,6 +28,7 @@
 		5AE6637029776D2A00B62DBA /* ScreenShot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE6636F29776D2A00B62DBA /* ScreenShot.swift */; };
 		5AE6637229776E3E00B62DBA /* EffectsLongLivingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE6637129776E3E00B62DBA /* EffectsLongLivingView.swift */; };
 		5AE663742979116800B62DBA /* EffectsRefreshableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE663732979116800B62DBA /* EffectsRefreshableView.swift */; };
+		5AE663762979257500B62DBA /* EffectsTimersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE663752979257500B62DBA /* EffectsTimersView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,6 +54,7 @@
 		5AE6636F29776D2A00B62DBA /* ScreenShot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenShot.swift; sourceTree = "<group>"; };
 		5AE6637129776E3E00B62DBA /* EffectsLongLivingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EffectsLongLivingView.swift; sourceTree = "<group>"; };
 		5AE663732979116800B62DBA /* EffectsRefreshableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EffectsRefreshableView.swift; sourceTree = "<group>"; };
+		5AE663752979257500B62DBA /* EffectsTimersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EffectsTimersView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +148,7 @@
 				5AE6636D2977660400B62DBA /* EffectsCancellationView.swift */,
 				5AE6637129776E3E00B62DBA /* EffectsLongLivingView.swift */,
 				5AE663732979116800B62DBA /* EffectsRefreshableView.swift */,
+				5AE663752979257500B62DBA /* EffectsTimersView.swift */,
 			);
 			path = Effects;
 			sourceTree = "<group>";
@@ -244,6 +247,7 @@
 				5ABECC0C296DB725005EDAF5 /* TwoCountersView.swift in Sources */,
 				5AE6636429763E9700B62DBA /* FatClient.swift in Sources */,
 				5AE6636E2977660400B62DBA /* EffectsCancellationView.swift in Sources */,
+				5AE663762979257500B62DBA /* EffectsTimersView.swift in Sources */,
 				5ABECBF3296D57B7005EDAF5 /* TCA_ExampleApp.swift in Sources */,
 				5AE6637029776D2A00B62DBA /* ScreenShot.swift in Sources */,
 				5AE6635A297615E200B62DBA /* FocusDemoView.swift in Sources */,

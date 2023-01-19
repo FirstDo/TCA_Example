@@ -44,15 +44,15 @@ struct CaseStudyView: View {
                 NavigationLink("OptionalState") {
                     OptionalStateView(store: Store(
                         initialState: OptionalBasics.State(),
-                        reducer: OptionalBasics())
-                    )
+                        reducer: OptionalBasics()
+                    ))
                 }
                 
                 NavigationLink("SharedState") {
                     SharedStateView(store: Store(
                         initialState: SharedState.State(),
-                        reducer: SharedState())
-                    )
+                        reducer: SharedState()
+                    ))
                 }
                 
                 NavigationLink("AlertConfirmationDialog") {
@@ -88,22 +88,29 @@ struct CaseStudyView: View {
                 NavigationLink("Effects Cancellation") {
                     EffectsCancellationView(store: Store(
                         initialState: .init(),
-                        reducer: EffectsCancellation())
-                    )
+                        reducer: EffectsCancellation()
+                    ))
                 }
                 
                 NavigationLink("Effects LongLiving") {
                     EffectsLongLivingView(store: Store(
                         initialState: .init(),
-                        reducer: LongLivingEffects())
-                    )
+                        reducer: LongLivingEffects()
+                    ))
                 }
                 
                 NavigationLink("Effects Refreshable") {
                     EffectsRefreshableView(store: Store(
                         initialState: .init(),
-                        reducer: Refreshable())
-                    )
+                        reducer: Refreshable()
+                    ))
+                }
+                
+                NavigationLink("EffectsTimers") {
+                    EffectsTimersView(store: Store(
+                        initialState: .init(),
+                        reducer: Timers()
+                    ))
                 }
             }
             
