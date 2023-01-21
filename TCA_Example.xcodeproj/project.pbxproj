@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		5A2C5703297BEBDE004BD6D4 /* NavigationAndLoadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2C5702297BEBDE004BD6D4 /* NavigationAndLoadView.swift */; };
+		5A594407297BF442009C03BA /* LoadThenNavigateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A594406297BF442009C03BA /* LoadThenNavigateView.swift */; };
 		5ABECBF3296D57B7005EDAF5 /* TCA_ExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ABECBF2296D57B7005EDAF5 /* TCA_ExampleApp.swift */; };
 		5ABECBF5296D57B7005EDAF5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ABECBF4296D57B7005EDAF5 /* ContentView.swift */; };
 		5ABECBF7296D57B8005EDAF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5ABECBF6296D57B8005EDAF5 /* Assets.xcassets */; };
@@ -34,6 +35,7 @@
 
 /* Begin PBXFileReference section */
 		5A2C5702297BEBDE004BD6D4 /* NavigationAndLoadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationAndLoadView.swift; sourceTree = "<group>"; };
+		5A594406297BF442009C03BA /* LoadThenNavigateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadThenNavigateView.swift; sourceTree = "<group>"; };
 		5ABECBEF296D57B7005EDAF5 /* TCA_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TCA_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5ABECBF2296D57B7005EDAF5 /* TCA_ExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCA_ExampleApp.swift; sourceTree = "<group>"; };
 		5ABECBF4296D57B7005EDAF5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -75,6 +77,7 @@
 			isa = PBXGroup;
 			children = (
 				5A2C5702297BEBDE004BD6D4 /* NavigationAndLoadView.swift */,
+				5A594406297BF442009C03BA /* LoadThenNavigateView.swift */,
 			);
 			path = Navigation;
 			sourceTree = "<group>";
@@ -267,6 +270,7 @@
 				5ABECC12296F9569005EDAF5 /* OptionalStateView.swift in Sources */,
 				5ABECC01296D598C005EDAF5 /* CaseStudyView.swift in Sources */,
 				5AE663742979116800B62DBA /* EffectsRefreshableView.swift in Sources */,
+				5A594407297BF442009C03BA /* LoadThenNavigateView.swift in Sources */,
 				5ABECC04296D6771005EDAF5 /* CounterView.swift in Sources */,
 				5ABECC0E296E41F1005EDAF5 /* BindingsBasicView.swift in Sources */,
 			);

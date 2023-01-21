@@ -122,6 +122,13 @@ struct CaseStudyView: View {
                         reducer: NavigationAndLoad()
                     ))
                 }
+                
+                NavigationLink("load and Navigate") {
+                    LoadThenNavigateView(store: Store(
+                        initialState: .init(),
+                        reducer: LoadThenNavigate()
+                    ))
+                }
             }
             
             Section("HIGHER-ORDER- REDUCERS") {
