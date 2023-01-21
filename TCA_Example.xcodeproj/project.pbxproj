@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5A2C5703297BEBDE004BD6D4 /* NavigationAndLoadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2C5702297BEBDE004BD6D4 /* NavigationAndLoadView.swift */; };
 		5ABECBF3296D57B7005EDAF5 /* TCA_ExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ABECBF2296D57B7005EDAF5 /* TCA_ExampleApp.swift */; };
 		5ABECBF5296D57B7005EDAF5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ABECBF4296D57B7005EDAF5 /* ContentView.swift */; };
 		5ABECBF7296D57B8005EDAF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5ABECBF6296D57B8005EDAF5 /* Assets.xcassets */; };
@@ -32,6 +33,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5A2C5702297BEBDE004BD6D4 /* NavigationAndLoadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationAndLoadView.swift; sourceTree = "<group>"; };
 		5ABECBEF296D57B7005EDAF5 /* TCA_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TCA_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5ABECBF2296D57B7005EDAF5 /* TCA_ExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCA_ExampleApp.swift; sourceTree = "<group>"; };
 		5ABECBF4296D57B7005EDAF5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -69,6 +71,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5A2C5701297BEB65004BD6D4 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				5A2C5702297BEBDE004BD6D4 /* NavigationAndLoadView.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
 		5ABECBE6296D57B7005EDAF5 = {
 			isa = PBXGroup;
 			children = (
@@ -121,6 +131,7 @@
 				5ABECC00296D598C005EDAF5 /* CaseStudyView.swift */,
 				5AE6635E29763B3400B62DBA /* Getting Started */,
 				5AE6635F29763B4200B62DBA /* Effects */,
+				5A2C5701297BEB65004BD6D4 /* Navigation */,
 			);
 			path = CaseStudy;
 			sourceTree = "<group>";
@@ -238,6 +249,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A2C5703297BEBDE004BD6D4 /* NavigationAndLoadView.swift in Sources */,
 				5ABECBF5296D57B7005EDAF5 /* ContentView.swift in Sources */,
 				5AE6635C29762B0E00B62DBA /* AnimationsView.swift in Sources */,
 				5AE6637229776E3E00B62DBA /* EffectsLongLivingView.swift in Sources */,
