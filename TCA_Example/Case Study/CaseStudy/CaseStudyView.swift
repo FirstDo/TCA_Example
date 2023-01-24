@@ -150,6 +150,13 @@ struct CaseStudyView: View {
                         reducer: PresentAndLoad()
                     ))
                 }
+                
+                NavigationLink("Sheet: Load then Present") {
+                    LoadThenPresentView(store: Store(
+                        initialState: .init(),
+                        reducer: LoadThenPresent()
+                    ))
+                }
             }
             
             Section("HIGHER-ORDER- REDUCERS") {

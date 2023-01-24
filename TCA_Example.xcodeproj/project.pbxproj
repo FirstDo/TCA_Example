@@ -12,6 +12,7 @@
 		5A594413297FD6F6009C03BA /* NavigateAndLoadListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A594412297FD6F6009C03BA /* NavigateAndLoadListView.swift */; };
 		5A594415297FFD44009C03BA /* LoadThenNavigateListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A594414297FFD44009C03BA /* LoadThenNavigateListView.swift */; };
 		5A59441729800446009C03BA /* PresentAndLoadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A59441629800446009C03BA /* PresentAndLoadView.swift */; };
+		5A59441929800738009C03BA /* LoadThenPresentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A59441829800738009C03BA /* LoadThenPresentView.swift */; };
 		5ABECBF3296D57B7005EDAF5 /* TCA_ExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ABECBF2296D57B7005EDAF5 /* TCA_ExampleApp.swift */; };
 		5ABECBF5296D57B7005EDAF5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ABECBF4296D57B7005EDAF5 /* ContentView.swift */; };
 		5ABECBF7296D57B8005EDAF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5ABECBF6296D57B8005EDAF5 /* Assets.xcassets */; };
@@ -42,6 +43,7 @@
 		5A594412297FD6F6009C03BA /* NavigateAndLoadListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigateAndLoadListView.swift; sourceTree = "<group>"; };
 		5A594414297FFD44009C03BA /* LoadThenNavigateListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadThenNavigateListView.swift; sourceTree = "<group>"; };
 		5A59441629800446009C03BA /* PresentAndLoadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentAndLoadView.swift; sourceTree = "<group>"; };
+		5A59441829800738009C03BA /* LoadThenPresentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadThenPresentView.swift; sourceTree = "<group>"; };
 		5ABECBEF296D57B7005EDAF5 /* TCA_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TCA_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5ABECBF2296D57B7005EDAF5 /* TCA_ExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCA_ExampleApp.swift; sourceTree = "<group>"; };
 		5ABECBF4296D57B7005EDAF5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -87,6 +89,7 @@
 				5A594412297FD6F6009C03BA /* NavigateAndLoadListView.swift */,
 				5A594414297FFD44009C03BA /* LoadThenNavigateListView.swift */,
 				5A59441629800446009C03BA /* PresentAndLoadView.swift */,
+				5A59441829800738009C03BA /* LoadThenPresentView.swift */,
 			);
 			path = Navigation;
 			sourceTree = "<group>";
@@ -265,6 +268,7 @@
 				5ABECBF5296D57B7005EDAF5 /* ContentView.swift in Sources */,
 				5A59441729800446009C03BA /* PresentAndLoadView.swift in Sources */,
 				5A594415297FFD44009C03BA /* LoadThenNavigateListView.swift in Sources */,
+				5A59441929800738009C03BA /* LoadThenPresentView.swift in Sources */,
 				5AE6635C29762B0E00B62DBA /* AnimationsView.swift in Sources */,
 				5AE6637229776E3E00B62DBA /* EffectsLongLivingView.swift in Sources */,
 				5AE6635629753BCF00B62DBA /* SharedStateView.swift in Sources */,
