@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		5A2C5703297BEBDE004BD6D4 /* NavigationAndLoadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2C5702297BEBDE004BD6D4 /* NavigationAndLoadView.swift */; };
 		5A594407297BF442009C03BA /* LoadThenNavigateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A594406297BF442009C03BA /* LoadThenNavigateView.swift */; };
+		5A594413297FD6F6009C03BA /* NavigateAndLoadListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A594412297FD6F6009C03BA /* NavigateAndLoadListView.swift */; };
 		5ABECBF3296D57B7005EDAF5 /* TCA_ExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ABECBF2296D57B7005EDAF5 /* TCA_ExampleApp.swift */; };
 		5ABECBF5296D57B7005EDAF5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ABECBF4296D57B7005EDAF5 /* ContentView.swift */; };
 		5ABECBF7296D57B8005EDAF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5ABECBF6296D57B8005EDAF5 /* Assets.xcassets */; };
@@ -36,6 +37,7 @@
 /* Begin PBXFileReference section */
 		5A2C5702297BEBDE004BD6D4 /* NavigationAndLoadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationAndLoadView.swift; sourceTree = "<group>"; };
 		5A594406297BF442009C03BA /* LoadThenNavigateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadThenNavigateView.swift; sourceTree = "<group>"; };
+		5A594412297FD6F6009C03BA /* NavigateAndLoadListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigateAndLoadListView.swift; sourceTree = "<group>"; };
 		5ABECBEF296D57B7005EDAF5 /* TCA_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TCA_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5ABECBF2296D57B7005EDAF5 /* TCA_ExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCA_ExampleApp.swift; sourceTree = "<group>"; };
 		5ABECBF4296D57B7005EDAF5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -78,6 +80,7 @@
 			children = (
 				5A2C5702297BEBDE004BD6D4 /* NavigationAndLoadView.swift */,
 				5A594406297BF442009C03BA /* LoadThenNavigateView.swift */,
+				5A594412297FD6F6009C03BA /* NavigateAndLoadListView.swift */,
 			);
 			path = Navigation;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 				5AE6637229776E3E00B62DBA /* EffectsLongLivingView.swift in Sources */,
 				5AE6635629753BCF00B62DBA /* SharedStateView.swift in Sources */,
 				5ABECC10296E82B1005EDAF5 /* BindingsFormView.swift in Sources */,
+				5A594413297FD6F6009C03BA /* NavigateAndLoadListView.swift in Sources */,
 				5AE6635829757DE500B62DBA /* Alert_ConfirmationDialog.swift in Sources */,
 				5ABECC0C296DB725005EDAF5 /* TwoCountersView.swift in Sources */,
 				5AE6636429763E9700B62DBA /* FatClient.swift in Sources */,
