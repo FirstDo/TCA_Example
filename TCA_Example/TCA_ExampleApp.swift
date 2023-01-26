@@ -12,7 +12,15 @@ struct TCA_ExampleApp: App {
     var body: some Scene {
         WindowGroup {
             NavigationView {
-                ContentView()
+                Form {
+                    NavigationLink("Case Study") {
+                        CaseStudyView()
+                    }
+                    
+                    NavigationLink("Search View") {
+                        SearchView()
+                    }
+                }
             }
         }
     }
