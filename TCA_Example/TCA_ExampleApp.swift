@@ -7,6 +7,8 @@
 
 import SwiftUI
 
+import ComposableArchitecture
+
 @main
 struct TCA_ExampleApp: App {
     var body: some Scene {
@@ -18,7 +20,9 @@ struct TCA_ExampleApp: App {
                     }
                     
                     NavigationLink("Search View") {
-                        SearchView()
+                        SearchView(
+                            store: Store(initialState: .init(), reducer: Search())
+                        )
                     }
                 }
             }
