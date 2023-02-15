@@ -2,7 +2,7 @@
 //  TodoView.swift
 //  TCA_Example
 //
-//  Created by dudu on 2023/01/27.
+//  Created by dudu on 2023/02/15.
 //
 
 import SwiftUI
@@ -12,7 +12,7 @@ import ComposableArchitecture
 struct Todo: ReducerProtocol {
     struct State: Equatable, Identifiable {
         var description = ""
-        var id: UUID
+        let id: UUID
         var isComplete = false
     }
     
@@ -26,7 +26,6 @@ struct Todo: ReducerProtocol {
         case .checkBoxToggled:
             state.isComplete.toggle()
             return .none
-            
         case let .textFieldChanged(description):
             state.description = description
             return .none
@@ -54,5 +53,11 @@ struct TodoView: View {
             }
             .foregroundColor(viewStore.isComplete ? .gray : nil)
         }
+    }
+}
+
+struct TodoView_Previews: PreviewProvider {
+    static var previews: some View {
+        TodoView(store: .init(initialState: .init(id: UUID()), reducer: Todo()))
     }
 }
